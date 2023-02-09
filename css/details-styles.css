@@ -1,0 +1,63 @@
+.details-head-section {
+   margin: 0 82px 42px 80px;
+}
+
+.details-head-section__hero-image {
+   width: 100%;
+}
+
+.details-post {
+   margin: 0 192px 58px 192px;
+}
+
+.post-head {
+   border-bottom: 1px solid #e8e7e7;
+   margin-bottom: 38px;
+}
+
+.post-head__title {
+   font-size: 45px;
+   font-weight: 700;
+   line-height: 54px;
+   color: #2d3748;
+   margin-bottom: 19px;
+}
+
+.post-head__subtitle {
+   margin-bottom: 30px;
+}
+
+.post-head__subtitle--author {
+   font-size: 18px;
+   font-weight: 700;
+   color: #2d3748;
+   padding-right: 14px;
+}
+
+.post-head__subtitle--date {
+   font-size: 18px;
+   color: #718096;
+}
+
+.post-text {
+   margin-bottom: 58px;
+}
+
+.post-text__paragraph {
+   font-size: 16px;
+   color: #718096;
+   line-height: 19px;
+   margin-bottom: 16px;
+}
+
+.post-text__section-name {
+   font-size: 30px;
+   color: #2D3748;
+   margin: 30px 0 30px 0;
+}
+
+.post-text__quote {
+   font-size: 16px;
+   color: #2d3748;
+   margin: 20px 0 20px 0;
+}

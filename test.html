@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Example of BEM HTML Container</title>
+    <style>
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      .header__title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .header__subtitle {
+        font-size: 18px;
+        font-weight: normal;
+        margin-top: 10px;
+      }
+      .btn--primary {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">Welcome to BEM HTML Example</h1>
+        <p class="header__subtitle">Example of using BEM naming convention in HTML</p>
+      </header>
+      <p>This is the main content of the page.</p>
+      <a href="#" class="btn btn--primary">Learn more</a>
+    </div>
+  </body>
+</html>
