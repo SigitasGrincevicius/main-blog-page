@@ -361,3 +361,11 @@
 .footer__nav-link--linkedin {
    margin-right: 0;
 }
+
+/* Adjusting font size on browser zoom */
+@media only screen and (max-width: 1098px) {
+   .main-post__title {
+      color: deeppink;
+      font-size: 25px;
+   }
+}
