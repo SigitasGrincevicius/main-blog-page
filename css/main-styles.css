@@ -35,6 +35,7 @@
    position: absolute;
    top: 3px;
    left: -29px;
+   fill: green;
 }
 
 .header__search-input {

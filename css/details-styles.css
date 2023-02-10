@@ -8,6 +8,7 @@
 
 .details-post {
    margin: 0 192px 58px 192px;
+   position: relative;
 }
 
 .post-head {
@@ -52,7 +53,7 @@
 
 .post-text__section-name {
    font-size: 30px;
-   color: #2D3748;
+   color: #2d3748;
    margin: 30px 0 30px 0;
 }
 
@@ -60,4 +61,26 @@
    font-size: 16px;
    color: #2d3748;
    margin: 20px 0 20px 0;
+}
+
+.post-text__button {
+   position: absolute;
+   bottom: 1%;
+   right: -15%;
+   border: none;
+   border-radius: 50%;
+   background-color: white;
+   cursor: pointer;
+}
+
+.post-text__button-image {
+   width: 42px;
+}
+
+@media screen and (max-width: 1024px) {
+   .post-text__button {
+      position: absolute;
+      bottom: 0.9%;
+      right: -17.3%;
+   }
 }
