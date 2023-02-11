@@ -59,6 +59,8 @@
 
 .post-text__quote {
    font-size: 16px;
+   font-weight: 700;
+   font-style: italic;
    color: #2d3748;
    margin: 20px 0 20px 0;
 }
@@ -68,6 +70,7 @@
    bottom: 1%;
    right: -15%;
    border: none;
+   outline: none;
    border-radius: 50%;
    background-color: white;
    cursor: pointer;
